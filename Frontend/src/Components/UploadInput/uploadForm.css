@@ -1,0 +1,39 @@
+.upload__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* border: 1px solid; */
+  }
+  
+  .upload__input {
+    margin-right: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .upload__select {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .upload__button {
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid rgb(37, 37, 37);
+    transition: background-color 0.2s, color 0.2s;
+    border-radius: 20px;
+  }
+  
+  .upload__button:hover {
+    color: rgb(37, 37, 37);
+    background-color: white;
+  }

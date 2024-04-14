@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Header {
+    margin-top: 30px;
+    padding: 10px;
+    /* border-radius: 10px;
+    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff; */
+    /* border: 1px solid; */
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+.Header .bold{
+    font-weight: 600;
+}

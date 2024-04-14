@@ -1,0 +1,11 @@
+.Home{
+  /* height: 100vh;  */
+  display: flex; 
+  flex-direction: column; 
+}
+
+.uploaadForm{
+    /* flex: 1; 
+    overflow-y: auto; */
+    height: 60vh !important;
+}

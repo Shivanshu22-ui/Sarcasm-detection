@@ -1,0 +1,120 @@
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    /* width: 98.1%; */
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 50px 150px;
+  }
+
+.footer .logoImg{
+  margin-bottom: 50px;
+}
+.footer .linkContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .linkContainer .linkSubContainer{
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.footer .linkHeader{
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+}
+.footer .linkContainer .linkSubContainer .link{
+  /* color: rgb(128, 128, 128); */
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.footer .linkContainer .signupContainer{
+  margin-left: auto;
+}
+
+.footer .policyMain{
+  display: flex;
+  flex-direction: row;
+}
+  
+.footer .policyMain .policy{
+  margin-left: auto;
+}
+.footer .policyMain .headerMini{
+  padding-right: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.footer .divider{
+  color: rgb(128, 128, 128);
+  margin:  50px 0px 20px 0px;
+  opacity: 0.5;
+}
+
+
+.footer .signupFieldMain button{
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: aliceblue;
+  border: 3px solid aliceblue;
+  transition: all 0.3s ease;
+}
+.footer .signupFieldMain button:hover{
+  background-color: rgb(37, 37, 37);
+  /* border: 3px solid rgb(37, 37, 37); */
+  color: aliceblue;
+}
+.footer .signupFieldMain input{
+  padding: 15px 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+  /* .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .logo {
+    max-width: 100%;
+    padding: 0px 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-media-icons {
+    margin-top: 20px;
+  }
+  
+  .social-media-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-media-icons i {
+    font-size: 24px;
+    color: white;
+    background-color: white;
+  } */

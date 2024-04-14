@@ -1,0 +1,26 @@
+.dashboard {
+  width: 90vw;
+  margin: auto;
+  /* border: 1px solid; */
+  /* height: 90vh; */
+  margin-bottom: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* z-index: 1 !important; */
+  margin-top: 20px;
+}
+.dashboard .column .datalist{
+  /* border: 1px solid; */
+  /* max-height: 300px; */
+  overflow-y: auto;
+
+}
+.dashboard .column .columnIntro{
+  padding: 0px 10px;
+  font-size: 19px;
+}
+.dashboard .column .heading{
+  padding: 0px 10px;
+}
